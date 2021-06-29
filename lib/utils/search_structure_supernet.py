@@ -4,6 +4,7 @@
 # email: haodu8-c@my.cityu.edu.hk and houwen.peng@microsoft.com
 
 def search_for_layer(flops_op_dict, arch_def, flops_minimum, flops_maximum):
+    print('arch def', arch_def)
     sta_num = [1, 1, 1, 1, 1]
     order = [2, 3, 4, 1, 0, 2, 3, 4, 1, 0]
     limits = [3, 3, 3, 2, 2, 4, 4, 4, 4, 4]
